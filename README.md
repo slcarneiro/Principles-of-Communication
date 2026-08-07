@@ -4,7 +4,6 @@ This repository contains a MATLAB simulation of an analog communication system u
 
 **Author:** Sérgio Luiz Carneiro Junior  
 **Institution:** Universidade Federal do Espírito Santo (UFES)  
-**Course:** Principles of Communication  
 **Date:** June 2026  
 
 ## Project Overview
