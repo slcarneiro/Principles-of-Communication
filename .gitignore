@@ -1,0 +1,19 @@
+# MATLAB Autosave files
+*.asv
+*.m~
+
+# Compiled MEX binaries
+*.mex*
+*.mexa64
+*.mexw64
+*.mexmac
+
+# Crash reports and profiler output
+matlab_crash_dump.*
+profile/
+
+# App Designer files
+*.mlappinstall
+
+# Ignore large data files if you don't want them on GitHub
+# *.mat
