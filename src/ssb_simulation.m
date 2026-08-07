@@ -15,7 +15,7 @@ snr = 11;  % Signal-to-Noise Ratio
 % ========================================================================%
 
 % ========== Part 1 - Audio Signal Reading ===============================%
-[m, Fs] = audioread('BrazilianVoice.ogg'); % Loads the signal
+[m, Fs] = audioread('data/BrazilianVoice.ogg'); % Loads the signal
 m = m(:,1);    % Forces the signal to mono (in case it is stereo)
 Fc = Fs/4;     % Modulation Center Frequency 
 % ========================================================================%
