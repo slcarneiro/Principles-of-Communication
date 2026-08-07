@@ -18,6 +18,17 @@ This laboratory exam evaluates the performance of AM modulation techniques. The 
 ## Repository Structure
 * `src/`: Contains the main MATLAB script (`ssb_simulation.m`) and the custom FFT function (`Spectrum_Analyzer.m`).
 * `data/`: Contains the generic test `.ogg` audio file used for modulation.
+* `results/`: Contains output plots illustrating system performance.
+
+## Simulation Results
+
+### 1. Spectral Analysis
+![Power Spectral Density](results/frequency_domain.png)
+*Comparison between the baseband power spectrum and the passband power spectrum.*
+
+### 2. Time Domain Analysis
+![Time Domain Waveforms](results/time_domain.png)
+*Comparison between the generated audio signal and the received audio signal after channel transmission.*
 
 ## How to Run
 1. Clone this repository to your local machine.
